@@ -1,6 +1,5 @@
 body {
-    background-color: red;
-    margin          : 0;
+    margin: 0;
 }
 
 /* ============================ Header containers ============================ */
@@ -78,13 +77,33 @@ body {
     display         : flex;
 }
 
+.headerBtn:hover {
+    filter: brightness(85%);
+    cursor: default;
+}
+
 /* ============================ Header input ============================ */
 #searchContainer {
     background-color: rgb(73, 122, 171);
+    padding         : 1.5rem 1rem 1.5rem 1rem;
+    display         : flex;
+}
+
+#searchProduct {
+    width       : 90%;
+    padding-left: 1rem;
+}
+
+#searchProduct::placeholder {
+    color    : lightgrey;
+    font-size: large;
 }
 
 #searchBtn {
     background-color: rgb(0, 83, 159);
     color           : white;
-    border-color    : grey;
+    width           : 10%;
+    text-align      : center;
+    border-width    : 5rem;
+    border-color    : black;
 }
