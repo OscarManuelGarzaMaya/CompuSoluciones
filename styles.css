@@ -115,10 +115,9 @@ body {
 /* ============================ Body containers ============================ */
 
 #bodyContainer {
-    display: flex;
-    height : 100%;
-    width  : 80%;
-    margin : auto;
+    height          : 100%;
+    width           : 80%;
+    margin          : auto;
 }
 
 #titleContainer {
